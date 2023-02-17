@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <title>WCTC Revision by Lynn Simonen · Bootstrap v5.3</title>
+
+
+    <link href="app.css" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+    <link href="https://getbootstrap.com/docs/5.3/examples/assets_WCTCRevision/" rel="canonical">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+          rel="stylesheet"/>
+
+
+</head>
+
+<!-- START OF BODY OF WEBSITE -->
+<body>
+
+<header class="mainHeader ">
+    <div class="container-fluid p-0">  <!-- Added p-0 to remove margin and make blue go to edge -->
+        <div>
+            <ul id="rightNav" class="nav justify-content-end">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link student active" href="#">MyWCTC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link student" href="#">Quick Links</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link student" href="#">Alumni</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link student disabled" href="#" tabindex="-1">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span>
+                    </a>
+                </li>
+            </ul>
+            <a class="navbar-brand " href="/">
+                <img id="logo" alt="WCTC logo" src="images/WCTCICON.jpg">
+            </a>
+        </div>
+
+        <nav id="leftNav" class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <!--<img id="logo" alt="WCTC logo" src="images/WCTCICON.jpg">-->
+                </a>
+                <button aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"
+                        data-bs-target="#navbarText" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="leftNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mx-0 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a aria-current="page" class="nav-link active community" href="#">Academics</a>
+                        </li>
+                        <li class="nav-item community">
+                            <a class="nav-link" href="#">Admissions</a>
+                        </li>
+                        <li class="nav-item community">
+                            <a class="nav-link" href="#">Campus Life</a>
+                        </li>
+                        <li class="nav-item community">
+                            <a class="nav-link" href="#">Community</a>
+                        </li>
+                        <li class="nav-item community">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+</header>
+
+<!-- MAIN BODY STARTS HERE -->
+
+<!-- CAROUSEL STARTS HERE -->
+<main>
+    <div id="topImageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="container carousel-inner">
+            <div class="carousel-item active">
+                <img alt="WCTC students" class="d-block w-100" src="images/WCTCMainImage.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="picCaption">WCTC HELPS PREPARE YOU FOR YOUR FUTURE</h2>
+                </div>
+            </div>
+            <div class="carousel-item studentsImage">
+                <img alt="fireman" class="d-block w-100" src="images/fireman833x329.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="picCaption">LET WCTC LEAD THE WAY!</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="nurse" class="d-block w-100" src="images/nurse481x199.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="picCaption">LET WCTC LEAD THE WAY!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid row justify-content-evenly siteMiddle">
+
+        <!-- ARTICLES COLUMN-->
+        //TODO: work on column alignment.
+        <div class="col-lg-6">
+            <div id="applyToday" class="row articles">
+                <h3>
+                    Apply Today!
+                </h3>
+                <p>
+                    Your educational and career goals are not only within reach, they're more attainable than ever.
+                    Explore our programs below to find the path that inspires you.
+                </p>
+                <button class="btn btn-primary articlesBtn" type="button">
+                    Apply to WCTC
+                </button>
+            </div>
+            <div id="undecided" class="row articles">
+                <h3>
+                    Undecided?
+                </h3>
+                <p>
+                    We're here to help! Explore helpful resources for choosing the WCTC program that's right for
+                    you.
+                </p>
+                <button class="btn btn-primary articlesBtn" type="button">
+                    Get Started >
+                </button>
+            </div>
+            <div id="shakeThingsUp" class="row articles">
+                <h3>
+                    Shake Things Up!
+                </h3>
+                <p>
+                    A nontraditional occupation (NTO) is any job in which your gender makes up less than 25 percent
+                    of the workforce -
+                    for example, women in the skilled trades or men in healthcare. We love seeing our students break
+                    through barriers
+                    in industries historically dominated by one gender.
+                </p>
+                <button class="btn btn-primary articlesBtn" type="button">
+                    Discover Careers >
+                </button>
+            </div>
+            <div id="newLiberalArtsTransfer" class="articles row">
+                <h3>
+                    NEW! Liberal Arts Transfer Degrees
+                </h3>
+                <p>
+                    Start your bachelor's degree at WCTC! With an Associate of Arts or Associate of Science degree
+                    from WCTC,
+                    you can seamlessly transfer into a four-year college or university.
+                </p>
+                <button class="btn btn-primary articlesBtn" type="button">
+                    Learn More >
+                </button>
+            </div>
+            <div id="iAmInterestedIn" class="row justify-content-center d-inline-flex articles">
+                <div class="col my-2 me-0">
+                    <span> I am interested in </span>
+                </div>
+                <div class="col my-2 mx-0">
+                    <button class="btn btn-outline-secondary articlesBtn" type="button">All Degrees</button>
+                </div>
+                <div class="col my-2 mx-0">
+                    <span> in </span>
+                </div>
+                <div class="col my-2 ms-0">
+                    <button class="btn btn-outline-secondary articlesBtn" type="button">All Schools</button>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <!-- PROGRAM LIST COLUMN -->
+        <div class="col-lg-4">
+            <div id="programList" class="row ">
+                <h2 class="programHdr">PROGRAM LIST</h2>
+            </div>
+            <div class="container">
+                <!--                <div class="row g-2 my-2 justify-content-center">-->
+                <div class="row my-2 ">
+                                        <div class="col-2 ">
+                    <button class="btn btn-tertiary programBtn">
+                        <i class="fa fa-plus"></i>
+                    </button>
+                                        </div>
+                                        <div class="col-10 justify-content-center">
+                    <div class="program">ARCHITECTURE AND CONSTRUCTION</div>
+                                        </div>
+                </div>
+                <div class="row g-2 my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">BUSINESS, MANAGEMENT AND FINANCE</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">EDUCATION AND HUMAN SERVICES</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">GRAPHIC COMMUNICATIONS</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">HEALTH</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">HOSPITALITY, CULINARY AND PASTRY</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">INFORMATION TECHNOLOGY</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">LIBERAL ARTS AND GENERAL STUDIES</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">MANUFACTURING</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">PROTECTIVE SERVICES</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">SCIENCE, TECHNOLOGY, ENGINEERING AND MATH (STEM)</span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-2">
+                        <button class="btn btn-tertiary programBtn">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="col-10">
+                        <span class="program">TRANSPORTATION</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+</main>
+
+<!-- FOOTER STARTS HERE -->
+<footer>
+    <div class="container">
+        <div class="row justify-content-evenly ">
+            <div class="col-4">
+                <span class="slogan">Hands On Higher Ed</span>
+            </div>
+            <div class="col-4">
+                <button class="row btn-outline-secondary">
+                    CONTACT US
+                </button>
+                <button class="row btn-outline-secondary">
+                    WCTC FOUNDATION
+                </button>
+                <button class="row btn-outline-secondary">
+                    WCTC CAREERS
+                </button>
+                <button class="row btn-outline-secondary">
+                    DISTRICT BOARD
+                </button>
+            </div>
+            <div class="col-4">
+                <span><i class='fa fa-twitter iconS' style='color: white'></i>  </span>
+                <span><i class='fa fa-facebook iconS' style='color: white'></i>  </span>
+                <span><i class='fa fa-linkedin iconS' style='color: white'></i>  </span>
+                <span><i class='fa fa-youtube iconS' style='color: white'></i></span>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!-- target collapse events -->
+<script>
+    $(function () {
+        $('#navbarHeader').collapse('show');
+        $('#navbarHeader').on('hidden.bs.collapse', function () {
+            alert('closed');
+        })
+    })
+</script>
+
+</body>
+</html>
+
